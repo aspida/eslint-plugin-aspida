@@ -1,7 +1,5 @@
 {
   "compilerOptions": {
-    "outDir": "dist",
-    "rootDir": "./lib",
     "baseUrl": "./",
     "paths": {
       "@/*": [
@@ -22,12 +20,11 @@
     "resolveJsonModule": true,
     "isolatedModules": true
   },
-  "exclude": [
-    "node_modules",
-    "tests",
-    "dist",
-  ],
   "include": [
     "**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
   ]
 }
