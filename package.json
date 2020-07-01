@@ -10,7 +10,8 @@
   "author": "ibuki2003",
   "main": "dist/index.js",
   "scripts": {
-    "test": "ts-mocha 'tests/**/*.ts' --paths"
+    "test": "ts-mocha 'tests/**/*.ts' --paths",
+    "build": "tsc --build tsconfig.build.json"
   },
   "dependencies": {
     "@types/eslint": "^7.2.0",
