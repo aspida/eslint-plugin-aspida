@@ -13,6 +13,7 @@ const allowed_members = new Set([
   "resBody",
   "status",
   "reqFormat",
+  "reqHeaders",
 ]);
 import { old_members } from "./old-members";
 
