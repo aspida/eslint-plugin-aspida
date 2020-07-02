@@ -4,7 +4,7 @@ import {
 } from "@typescript-eslint/experimental-utils";
 
 const messages = {
-  extra_member: "'{{name}}' is available member",
+  extra_member: "'{{name}}' is not valid member",
 };
 
 const allowed_members = new Set([
