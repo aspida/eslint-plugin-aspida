@@ -13,6 +13,7 @@ const configs: TSESLint.Linter.Config = {
         "aspida/non-property-signature": "error",
         "aspida/old-members": "error",
         "aspida/refer-type": "warn",
+        "aspida/reqformat-type": "error",
         "aspida/validate-methods": "error",
         "aspida/wrong-type-annotations": "error",
       },
