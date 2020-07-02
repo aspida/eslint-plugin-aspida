@@ -2,6 +2,8 @@
 
 support writing aspida api definition
 
+[aspida repository](https://github.com/aspidajs/aspida/tree/master/packages/aspida)
+
 ## Installation
 
 You'll first need to install [ESLint](http://eslint.org):
