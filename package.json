@@ -2,6 +2,7 @@
   "name": "eslint-plugin-aspida",
   "version": "0.0.0",
   "description": "support writing aspida api definition",
+  "repository": "git://github.com/ibuki2003/eslint-plugin-aspida",
   "keywords": [
     "eslint",
     "eslintplugin",
