@@ -8,6 +8,7 @@ const configs: TSESLint.Linter.Config = {
       },
       files: ["*.ts", "*.tsx"],
       rules: {
+        "aspida/export-methods": "error",
         "aspida/extra-members": "warn",
         "aspida/identifier-key": "error",
         "aspida/non-property-signature": "error",

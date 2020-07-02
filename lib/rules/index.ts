@@ -1,5 +1,6 @@
 import { TSESLint } from "@typescript-eslint/experimental-utils";
 
+import export_methods from "./export-methods";
 import extra_members from "./extra-members";
 import identifier_key from "./identifier-key";
 import non_property_signature from "./non-property-signature";
@@ -10,6 +11,7 @@ import wrong_type_annotations from "./wrong-type-annotations";
 import validate_methods from "./validate-methods";
 
 const rules: TSESLint.Linter.Plugin["rules"] = {
+  "export-methods": export_methods,
   "extra-members": extra_members,
   "identifier-key": identifier_key,
   "non-property-signature": non_property_signature,
